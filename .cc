@@ -4297,22 +4297,22 @@ CONFIG_PACKAGE_luci-base=y
 CONFIG_LUCI_LANG_en=y
 # CONFIG_LUCI_LANG_el is not set
 # CONFIG_LUCI_LANG_sk is not set
-# CONFIG_LUCI_LANG_ru is not set
+# CONFIG_LUCI_LANG_ja is not set
 # CONFIG_LUCI_LANG_vi is not set
-# CONFIG_LUCI_LANG_he is not set
-# CONFIG_LUCI_LANG_no is not set
+# CONFIG_LUCI_LANG_de is not set
+# CONFIG_LUCI_LANG_ro is not set
+# CONFIG_LUCI_LANG_pt-br is not set
 # CONFIG_LUCI_LANG_ms is not set
 # CONFIG_LUCI_LANG_pl is not set
 CONFIG_LUCI_LANG_zh-cn=y
-# CONFIG_LUCI_LANG_ro is not set
-# CONFIG_LUCI_LANG_de is not set
+# CONFIG_LUCI_LANG_no is not set
+# CONFIG_LUCI_LANG_he is not set
 # CONFIG_LUCI_LANG_zh-tw is not set
 # CONFIG_LUCI_LANG_tr is not set
 # CONFIG_LUCI_LANG_sv is not set
-# CONFIG_LUCI_LANG_ja is not set
+# CONFIG_LUCI_LANG_ru is not set
 # CONFIG_LUCI_LANG_ca is not set
 # CONFIG_LUCI_LANG_es is not set
-# CONFIG_LUCI_LANG_pt-br is not set
 # CONFIG_LUCI_LANG_cs is not set
 # CONFIG_LUCI_LANG_fr is not set
 # CONFIG_LUCI_LANG_it is not set
@@ -4507,7 +4507,7 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_Obfs is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin is not set
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
 # CONFIG_PACKAGE_luci-app-ssrserver-python is not set
 # CONFIG_PACKAGE_luci-app-statistics is not set
@@ -5925,7 +5925,7 @@ CONFIG_PACKAGE_uclient-fetch=y
 # CONFIG_PACKAGE_usbip is not set
 CONFIG_PACKAGE_uugamebooster=y
 # CONFIG_PACKAGE_v2ray-core is not set
-# CONFIG_PACKAGE_v2ray-plugin is not set
+CONFIG_PACKAGE_v2ray-plugin=y
 # CONFIG_V2RAY_PLUGIN_COMPRESS_GOPROXY is not set
 CONFIG_V2RAY_PLUGIN_COMPRESS_UPX=y
 # CONFIG_PACKAGE_vallumd is not set
@@ -5957,7 +5957,7 @@ CONFIG_XRAY_CORE_COMPRESS_UPX=y
 # CONFIG_PACKAGE_xray-example is not set
 # CONFIG_PACKAGE_xray-geodata is not set
 CONFIG_PACKAGE_xray-plugin=y
-CONFIG_XRAY_PLUGIN_PROVIDE_V2RAY_PLUGIN=y
+# CONFIG_XRAY_PLUGIN_PROVIDE_V2RAY_PLUGIN is not set
 # CONFIG_XRAY_PLUGIN_COMPRESS_GOPROXY is not set
 CONFIG_XRAY_PLUGIN_COMPRESS_UPX=y
 # end of Network
