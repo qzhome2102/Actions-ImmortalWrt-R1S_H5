@@ -16,9 +16,9 @@ env:
   REPO_BRANCH: openwrt-18.06-k5.4
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 18 */3 * *'
+#  workflow_dispatch:
+#  schedule:
+#    - cron: '0 18 */3 * *'
 
 jobs:
   check:
